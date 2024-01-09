@@ -148,3 +148,30 @@ body {
 	cursor: pointer;
 	margin-top: 0;
 }
+
+/* ---------------------------------------- New Park Hotel section */
+.new-park-hotel-section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 482px;
+
+	background: linear-gradient(
+		180deg,
+		rgba(255, 0, 0, 0.1) 0%,
+		rgba(255, 0, 0, 0) 100%
+	);
+	border-radius: 16px;
+	margin-bottom: 120px;
+}
+
+.new-park-hotel-content {
+	text-align: center;
+}
+
+.new-park-hotel-description {
+	color: #070211;
+	font-size: 32px;
+	font-weight: 600;
+	text-transform: capitalize;
+}
