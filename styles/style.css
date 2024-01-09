@@ -242,3 +242,22 @@ body {
 .coming-soon-new-year-img {
 	width: 140px;
 }
+
+/*----------------------------------------- Our Awesome Portfolio section */
+.portfolio-section {
+	margin-bottom: 120px;
+}
+
+.portfolio-images {
+	display: flex;
+	justify-content: space-between;
+}
+
+.portfolio-images img {
+	border-radius: 16px;
+	transition: transform 0.2s;
+}
+
+.portfolio-images img:hover {
+	transform: scale(1.1);
+}
