@@ -175,3 +175,70 @@ body {
 	font-weight: 600;
 	text-transform: capitalize;
 }
+
+/* ----------------------------------------- coming soon section */
+.coming-soon-section {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 70px;
+	margin-bottom: 120px;
+}
+
+.coming-soon-best-offer-column {
+	max-width: 393px;
+}
+
+.coming-soon-secondary-title {
+	font-size: 24px;
+	font-weight: 500;
+	margin-bottom: 16px;
+}
+
+.coming-soon-primary-title {
+	color: #070211;
+	font-size: 48px;
+	font-weight: 900;
+	text-transform: capitalize;
+	margin-top: 0;
+	margin-bottom: 22px;
+}
+
+.coming-soon-description {
+	color: rgba(7, 2, 17, 0.6);
+	font-size: 20px;
+	font-weight: 400;
+	margin-top: 0;
+}
+
+.coming-soon-image {
+	border-radius: 463px;
+	border: 15px solid #f00;
+	padding: 30px;
+}
+
+.coming-soon-image img {
+	width: 364px;
+}
+
+.coming-soon-year-column {
+	max-width: 276px;
+}
+
+.coming-soon-year {
+	font-size: 48px;
+	font-weight: 700;
+	margin-bottom: 16px;
+}
+
+.coming-soon-year-description {
+	color: rgba(7, 2, 17, 0.6);
+	font-size: 20px;
+	font-weight: 400;
+	margin-top: 0;
+	margin-bottom: 43px;
+}
+
+.coming-soon-new-year-img {
+	width: 140px;
+}
