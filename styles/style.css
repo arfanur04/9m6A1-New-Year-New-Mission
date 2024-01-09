@@ -12,27 +12,31 @@ body {
 	margin: 0 auto;
 }
 
-/* banner section */
-.banner-container {
-	position: relative;
-	border-radius: 16px;
-	margin-top: 50px;
-	margin-bottom: 120px;
+.primary-color {
+	color: #f00;
 }
 
-.banner-background {
+/* banner section */
+
+.banner-container {
+	position: relative;
+	margin-top: 50px;
+}
+
+.banner-background-image {
 	background-image: url("../resources/Banner\ Image.png");
 	height: 600px;
-	filter: brightness(60%);
 }
 
 .banner-content {
+	background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
 	position: absolute;
 	text-align: center;
 	top: 0;
 	height: 600px;
 	width: 1320px;
 	color: white;
+	border-radius: 16px;
 
 	display: flex;
 	justify-content: center;
@@ -49,4 +53,38 @@ body {
 	font-size: 72px;
 	font-weight: 900;
 	margin-top: 16px;
+}
+
+/* 65% OFF. Holiday deal section */
+.holiday-deal-container {
+	margin: 100px 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.holiday-discount {
+	font-size: 88px;
+	font-weight: 700;
+	margin-bottom: 48px;
+}
+
+.holiday-description {
+	font-size: 24px;
+	font-weight: 500;
+	margin-top: 0;
+	margin-bottom: 16px;
+}
+
+.holiday-title {
+	color: #070211;
+	font-size: 48px;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 48px;
+}
+
+.holiday-img img {
+	width: 800px;
+	margin-top: 0;
 }
