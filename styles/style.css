@@ -344,3 +344,14 @@ footer hr {
 	border: none;
 	cursor: pointer;
 }
+
+/*------------------------------------------------  Holiday Sale section */
+/* .sale-section {
+	position: relative;
+} */
+
+.sale-img-container {
+	position: relative;
+	height: 662px;
+	border: 1px solid red;
+}
