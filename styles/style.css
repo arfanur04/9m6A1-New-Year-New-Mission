@@ -16,6 +16,18 @@ body {
 	color: #f00;
 }
 
+.primary-button {
+	background-color: #f00;
+	color: #fff;
+	font-size: 20px;
+	font-weight: 700;
+	text-transform: uppercase;
+	border: none;
+	border-radius: 6px;
+	padding: 16px 32px;
+	cursor: pointer;
+}
+
 /* -----------------------------------------------  banner section */
 
 .banner-container {
@@ -260,4 +272,27 @@ body {
 
 .portfolio-images img:hover {
 	transform: scale(1.1);
+}
+
+/* -------------------------------------------  Subscribe section */
+.subscribe-section {
+	margin-bottom: 120px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 16px;
+	background: rgba(255, 0, 0, 0.05);
+	height: 616px;
+}
+
+.subscribe-input {
+	/* color: #fff; */
+	font-size: 20px;
+	/* font-weight: 700; */
+	/* text-transform: uppercase; */
+	border: none;
+	/* border-radius: 6px; */
+	padding: 16px 32px;
+	border-radius: 50px 0px 0px 50px;
 }
