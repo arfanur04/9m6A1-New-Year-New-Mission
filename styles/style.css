@@ -1,4 +1,4 @@
-/* common shared style */
+/* ------------------------------------------ common shared style */
 body {
 	font-family: "Inter", sans-serif;
 }
@@ -16,7 +16,7 @@ body {
 	color: #f00;
 }
 
-/* banner section */
+/* -----------------------------------------------  banner section */
 
 .banner-container {
 	position: relative;
@@ -33,8 +33,8 @@ body {
 	position: absolute;
 	text-align: center;
 	top: 0;
-	height: 600px;
-	width: 1320px;
+	width: 100%;
+	height: 100%;
 	color: white;
 	border-radius: 16px;
 
@@ -55,9 +55,9 @@ body {
 	margin-top: 16px;
 }
 
-/* 65% OFF. Holiday deal section */
+/* --------------------------------- 65% OFF. Holiday deal section */
 .holiday-deal-container {
-	margin: 100px 0;
+	margin: 120px 0;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -66,6 +66,7 @@ body {
 .holiday-discount {
 	font-size: 88px;
 	font-weight: 700;
+	margin-top: 0;
 	margin-bottom: 48px;
 }
 
@@ -86,5 +87,64 @@ body {
 
 .holiday-img img {
 	width: 800px;
+	margin-top: 0;
+}
+
+/* -------------------------------------- Midnight party section */
+.midnight-section {
+	position: relative;
+	margin-bottom: 120px;
+}
+
+.midnight-background-img {
+	background-image: url("../resources/Vectorrr.png");
+	height: 600px;
+}
+
+.midnight-container {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100%;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
+	border-radius: 16px;
+}
+
+.midnight-flex-container {
+	display: flex;
+	align-items: center;
+}
+
+.midnight-content {
+	max-width: 700px;
+}
+
+.midnight-title {
+	color: #fff;
+	font-size: 64px;
+	font-weight: 900;
+	margin-bottom: 24px;
+}
+
+.midnight-description {
+	color: rgba(255, 255, 255, 0.8);
+	font-size: 18px;
+	font-weight: 400;
+	margin-top: 0;
+	margin-bottom: 48px;
+}
+
+.midnight-btn {
+	color: #fff;
+	font-size: 20px;
+	font-weight: 700;
+	background: none;
+	border: none;
+	cursor: pointer;
 	margin-top: 0;
 }
